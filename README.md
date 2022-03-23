@@ -2,6 +2,8 @@
 
 Use Python to sync a Rhythmbox xml database to an Airsonic HSQLDB
 
+Requires JPype and JayDeBeApi. Use: `pip install jpype jaydebeapi`
+
 So far this just adds a new HSQLDB table, so there will be no effect on either player yet. Todo:
 - full playcount sync
 - add default database locations
